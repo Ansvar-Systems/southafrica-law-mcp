@@ -1,0 +1,68 @@
+# sources.yml
+schema_version: "1.0"
+mcp_name: "South Africa Law MCP"
+jurisdiction: "ZA"
+
+sources:
+  - name: "South African Legal Information Institute (SAFLII)"
+    authority: "SAFLII, hosted by University of Cape Town / Wits University"
+    official_portal: "https://www.saflii.org"
+    canonical_identifier: "N/A (South Africa uses Act title + number + year as canonical identifier, e.g., Act 4 of 2013)"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "weekly"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Free Access"
+      url: "https://www.saflii.org/content/terms-use"
+      summary: "SAFLII provides free, unrestricted access to South African legal information; legislation and case law are public domain"
+    coverage:
+      scope: "All national Acts of Parliament including Protection of Personal Information Act (POPIA, Act 4 of 2013), Electronic Communications and Transactions Act (ECTA, Act 25 of 2002), Cybercrimes Act (Act 19 of 2020), Companies Act (Act 71 of 2008), Consumer Protection Act (Act 68 of 2008), Promotion of Access to Information Act (PAIA, Act 2 of 2000), Regulation of Interception of Communications Act (RICA, Act 70 of 2002); regulations; Constitutional Court decisions; Supreme Court of Appeal decisions; High Court decisions"
+      limitations: "Historical legislation before 1994 may be incomplete; some provincial legislation not covered; Gazette Statutory Instruments may lag; bulk download requires permission from SAFLII"
+    languages:
+      - "en"
+      - "af"
+      - "zu"
+
+  - name: "South African Government (gov.za)"
+    authority: "Government of South Africa"
+    official_portal: "https://www.gov.za/documents"
+    canonical_identifier: "Government Gazette number"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "on_change"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Open Data"
+      url: "https://www.gov.za/documents/terms-and-conditions"
+      summary: "South African government publications and legislation are freely available; Acts published in the Government Gazette are public domain"
+    coverage:
+      scope: "Government Gazette (Acts, regulations, proclamations, government notices); official policy documents; white papers; green papers"
+      limitations: "PDF-based content requires extraction; not all historical gazettes are digitised; search functionality is limited; no structured API"
+    languages:
+      - "en"
+      - "af"
+
+  - name: "Department of Justice and Constitutional Development"
+    authority: "Republic of South Africa, Department of Justice and Constitutional Development"
+    official_portal: "https://www.justice.gov.za"
+    canonical_identifier: "N/A"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "monthly"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Public Domain"
+      url: "https://www.justice.gov.za"
+      summary: "Departmental publications, constitutional materials, and legislation are public domain"
+    coverage:
+      scope: "Constitution of the Republic of South Africa (1996); constitutional amendments; legislation administered by the Department; legal policy documents; regulations under POPIA and PAIA"
+      limitations: "Not a comprehensive legislation source — focused on justice-related legislation; PDF-based content; website may have availability issues"
+    languages:
+      - "en"
+      - "af"
+
+data_freshness:
+  automated_checks: true
+  check_frequency: "weekly"
+  last_verified: "PENDING_FIRST_INGEST"

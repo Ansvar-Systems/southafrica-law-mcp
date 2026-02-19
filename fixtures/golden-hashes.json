@@ -1,0 +1,64 @@
+{
+  "$schema": "./golden-hashes.schema.json",
+  "version": "1.0",
+  "mcp_name": "South Africa Law MCP",
+  "jurisdiction": "ZA",
+  "provisions": [
+    {
+      "id": "za-hash-001",
+      "description": "Constitution of South Africa (1996), Section 1 — Republic of South Africa (founding provision, stable constitutional anchor)",
+      "upstream_url": "https://www.saflii.org/za/legis/consol_act/cotrosa1996423/",
+      "selector_hint": "Section 1",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "Republic of South Africa"
+    },
+    {
+      "id": "za-hash-002",
+      "description": "Constitution of South Africa (1996), Section 14 — Right to privacy (foundational for POPIA)",
+      "upstream_url": "https://www.saflii.org/za/legis/consol_act/cotrosa1996423/",
+      "selector_hint": "Section 14",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "right to privacy"
+    },
+    {
+      "id": "za-hash-003",
+      "description": "Protection of Personal Information Act (POPIA), Section 1 — definitions including 'personal information' and 'responsible party'",
+      "upstream_url": "https://www.saflii.org/za/legis/consol_act/popia2013464/",
+      "selector_hint": "Section 1",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "personal information"
+    },
+    {
+      "id": "za-hash-004",
+      "description": "Protection of Personal Information Act (POPIA), Section 2 — purpose of the Act",
+      "upstream_url": "https://www.saflii.org/za/legis/consol_act/popia2013464/",
+      "selector_hint": "Section 2",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "purpose"
+    },
+    {
+      "id": "za-hash-005",
+      "description": "Cybercrimes Act (Act 19 of 2020), Section 1 — definitions",
+      "upstream_url": "https://www.saflii.org/za/legis/consol_act/ca2020133/",
+      "selector_hint": "Section 1",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "definitions"
+    },
+    {
+      "id": "za-hash-006",
+      "description": "Electronic Communications and Transactions Act (ECTA), Section 1 — definitions",
+      "upstream_url": "https://www.saflii.org/za/legis/consol_act/ecata2002420/",
+      "selector_hint": "Section 1",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "definitions"
+    },
+    {
+      "id": "za-hash-007",
+      "description": "Companies Act (Act 71 of 2008), Section 1 — interpretation",
+      "upstream_url": "https://www.saflii.org/za/legis/consol_act/ca2008107/",
+      "selector_hint": "Section 1",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "interpretation"
+    }
+  ]
+}
