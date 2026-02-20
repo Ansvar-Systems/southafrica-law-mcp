@@ -1,0 +1,69 @@
+{
+  "id": "constitution-2005",
+  "type": "constitution",
+  "title": "Citation of Constitutional Laws Act 2005",
+  "short_name": "CCL2",
+  "year": 2005,
+  "status": "in_force",
+  "issued_date": "2005-01-01",
+  "url": "https://www.saflii.org/za/legis/consol_act/cocla2005352/",
+  "language": "en",
+  "provisions": [
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "June 2005",
+      "content": "June 2005. [ NOTE : The administration, powers and functions of this Act are transferred to the Minister of Justice and Constitutional Development , effective immediately before the President assumed office on 19 June 2024 – Proc 199 / G. 51368 / 11 October 2024.] ACT To change the manner of referring to the Constitution of the Republic of South Africa, 1996, and to laws amending it; to substitute the short titles of laws amending the Constitution of the Republic of South Africa, 1996; and to provide for matters connected therewith. PREAMBLE WHEREAS section 2 of the Constitution of the Republic of South Africa, 1996 (Act 108 of 1996), provides that the Constitution is the supreme law of the Republic of South Africa; AND WHEREAS the Constitution, unlike other Acts of the Republic of South Africa, was not passed by Parliament, but was adopted by the Constitutional Assembly; AND RECOGNISING that the Constitution and amendments to the Constitution should be treated differently from other Acts of Parliament by not being allocated an Act number like other ordinary Acts of Parliament, BE IT THEREFORE ENACTED by the Parliament of the Republic of South Africa, as follows: — ARRANGEMENT OF SECTIONS 1. No Act number to be associated with Constitution of the Republic of South Africa, 1996 2. Amendment of laws 3. Short titles of laws amending the Constitution of the Republic of South Africa, 1996 4. Short title Schedule",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "",
+      "content": ". This Act is called the Constitution [of the Republic of South Africa] First Amendment Act of 1997, And must be regarded as having taken effect on 4 February 1997.”. Act 65 of 1998 Constitution of the Republic of South Africa Amendment Act, 1998 The following section is substituted for section 6— “Short title",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "",
+      "content": ". This Act is called the Constitution [of the Republic of South Africa] Second Amendment Act of 1998.”. Act 87 of 1998 Constitution of the Republic of South Africa Second Amendment Act, 1998 The following section is substituted for section 3— “Short title",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "",
+      "content": ". This Act is called the Constitution [of the Republic of South Africa Second] Third Amendment Act of 1998.”. Act 3 of 1999 Constitution of the Republic of South Africa Amendment Act, 1999 The following section is substituted for section 3— “Short title",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "",
+      "content": ". This Act is called the Constitution [of the Republic of South Africa] Fourth Amendment Act of 1999.”. Act 2 of 1999 Constitution of the Republic of South Africa Second Amendment Act, 1999 The following section is substituted for section 3— “Short title",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "",
+      "content": ". This Act is called the Constitution [of the Republic of South Africa Second] Fifth Amendment Act of 1999.”. Act 34 of 2001 Constitution of the Republic of South Africa Amendment Act, 2001 The following section is substituted for section 21— “Short title [and commencement] 21. This Act is called the Constitution [of the Republic of South Africa] Sixth Amendment Act of 2001.”. Act 61 of 2001 Constitution of the Republic of South Africa Second Amendment Act, 2001 The following section is substituted for section 11— “Short title and commencement 11. This Act is called the Constitution [of the Republic of South Africa Second] Seventh Amendment Act of 2001, And comes into operation on a date fixed by the President by proclamation in the Gazette .”. Act 18 of 2002 Constitution of the Republic of South Africa Amendment Act, 2002 The following section is substituted for section 3— “Short title 3. This Act is called the Constitution [of the Republic of South Africa] Eighth Amendment Act of 2002.”. Act 21 of 2002 Constitution of the Republic of South Africa Second Amendment Act, 2002 The following section is substituted for section 4— “Short title 4. This Act is called the Constitution [of the Republic of South Africa Second] Ninth Amendment Act of 2002.”. Act 2 of 2003 Constitution of the Republic of South Africa Amendment Act, 2003 The following section is substituted for section 10— “Short title and commencement",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "",
+      "content": ". This Act is called the Constitution [of the Republic of South Africa] Tenth Amendment Act of 2003, and comes into operation on a date set by the President by proclamation.”. Act 3 of 2003 Constitution of the Republic of South Africa Second Amendment Act, 2003 The following section is substituted for section 5— “Short title and commencement",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "",
+      "content": ". This Act is called the Constitution [of the Republic of South Africa Second] Eleventh Amendment Act of 2003, And takes effect on a date determined by the President by proclamation in the Gazette .”. (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-40402503-1', 'auto'); ga('send', 'pageview');",
+      "language": "en"
+    }
+  ]
+}

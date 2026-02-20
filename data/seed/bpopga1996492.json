@@ -1,0 +1,41 @@
+{
+  "id": "borrowing-powers-of-provincial-governments-act-1996",
+  "type": "statute",
+  "title": "Borrowing Powers of Provincial Governments Act 1996",
+  "short_name": "BPPG",
+  "year": 1996,
+  "status": "in_force",
+  "issued_date": "1996-01-01",
+  "url": "https://www.saflii.org/za/legis/consol_act/bpopga1996492/",
+  "language": "en",
+  "provisions": [
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "October 1996",
+      "content": "October 1996. ACT To provide for norms and conditions in respect of the borrowing powers of provincial governments and for matters incidental thereto. PREAMBLE WHEREAS section 157(1) of the Constitution provides that a province shall not be competent to raise loans for current expenditure, but shall be competent to raise loans for capital expenditure, provided it does so within the framework of reasonable norms and conditions prescribed by an Act of Parliament; AND WHEREAS section 157(2) of the Constitution provides that loans for current expenditure may be raised by means of bridging finance during a fiscal year, subject to the condition that they shall be redeemed within 12 months and subject to such further, reasonable conditions as may be prescribed by an Act of Parliament; BE IT THEREFORE ENACTED by the Parliament of the Republic of South Africa, as follows: — ARRANGEMENT OF SECTIONS 1. Definitions 2. Loan Co-ordinating Committee 3. Borrowing powers of provinces 4. Statements of current and capital transactions 5. Guarantees 6. Signatories to documents 7. Regulations 8. Short title",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "Definitions",
+      "content": "Definitions. In this Act, unless the context otherwise indicates — “bridging finance” means funds raised during a financial year in the Republic and denominated in rand to finance current expenditure in anticipation of the receipt of current revenue during that particular financial year, and includes an overdraft on a bank account which the provincial government concerned has opened in terms of its Exchequer Act; “capital expenditure” means any payment by a provincial government for the procurement of new or existing tangible or intangible assets with a value higher than a prescribed value and with a normal life expectancy of more than one year, and includes— (a) payment for the acquisition of goods and services for the purpose of improving, prolonging the expected working life of, and rebuilding or reconstructing an existing fixed asset; (b) a capital transfer to another person or body; (c) the granting and payment of a money loan of which the proceeds will be used by the recipient of such a loan for capital expenditure; (d) any other expenditure which is from time to time classified by regulation as a capital expenditure; (e) the repayment of an outstanding loan which is due for redemption or conversion, provided that the proceeds of such conversion shall be used for the financing of expenditures contemplated in subparagraphs (a), (b), (c) and (d), but excludes a payment by a provincial government in connection with the normal maintenance of a capital asset intended to keep such asset in its original state of repair; “capital revenue” means all income of a provincial government, other than a loan, intended for the financing of capital expenditure and includes proceeds from the sale of capital assets; “capital transfer” means a non-repayable, unrequited payment to, through or by a provincial government for the purpose of financing capital expenditure; “Commission” means the Financial and Fiscal Commission established by section 198 of the Constitution; “Committee” means the Loan Co-ordinating Committee referred to in section 2; “current expenditure” means any payment by a provincial government which is not a capital expenditure; “current revenue” means all income of a provincial government, other than— (a) receipts from bridging finance and loans; (b) receipts of capital revenue; and (c) receipts of capital transfers; “financial year” means the period from 1 April in any year to 31 March in the next succeeding year; “interest incurred during a financial year” includes the gross amount of any finance charges, discounts or premiums attributable to that financial year, irrespective of whether such interest is deferred, paid in advance, or is calculated with reference to a fixed or variable rate of interest or in any other manner; “loan” means money borrowed to finance a capital expenditure; “Minister” means the Minister of Finance; “prescribed” means prescribed by regulation; “responsible member” means the member of the Executive Council of a provincial government who is responsible for the financial affairs of the province concerned and who acts, for purposes of this Act, on behalf of that government; “this Act” includes the regulations.",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "Guarantees",
+      "content": "Guarantees. (1) Notwithstanding anything to the contrary in this or any other law, no guarantee shall be furnished by the national government in respect of the fulfilment of a financial commitment incurred or to be incurred by a provincial government pursuant to the raising of bridging finance or conclusion of a loan denominated in rand. (2) Notwithstanding anything to the contrary in this or any other law, a guarantee by the national government in respect of the fulfilment of a financial commitment incurred or to be incurred by a provincial government pursuant to the conclusion by the responsible member of a loan denominated in a foreign currency may be furnished only in terms of a national Exchequer Act. (3) All documents issued in respect of the incurring by a provincial government of a financial commitment, shall prominently contain a statement indicating whether or not such a financial commitment is guaranteed by the national government.",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "Regulations",
+      "content": "Regulations. The Minister may, after consultation with the responsible members, make regulations regarding— (a) any matter which in terms of this Act is required or permitted to be prescribed; (b) disclosure requirements in respect of the borrowing operations of provincial governments; and (c) generally, any matter which the Minister deems necessary or expedient to prescribe in order to achieve the objects of this Act.",
+      "language": "en"
+    }
+  ]
+}

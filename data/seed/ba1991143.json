@@ -1,0 +1,41 @@
+{
+  "id": "businesses-act-1991",
+  "type": "statute",
+  "title": "Businesses Act 1991",
+  "short_name": "B1",
+  "year": 1991,
+  "status": "in_force",
+  "issued_date": "1991-01-01",
+  "url": "https://www.saflii.org/za/legis/consol_act/ba1991143/",
+  "language": "en",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "January 1992",
+      "content": "January 1992. ; s 2(3) to 2(11),ss 3, 5 and 6(5) in Natal:",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "July 1992",
+      "content": "July 1992. ; s 6(5) in Cape Province:",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "August 1992",
+      "content": "August 1992. ; s 2(3) to 2(11), ss 3, 5 and 6(5) in Orange Free State:",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "January 1993",
+      "content": "January 1993. ; s 2(3) to (11), ss 3, 5 and 6(5) in Transvaal:",
+      "language": "en"
+    }
+  ]
+}

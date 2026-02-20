@@ -1,0 +1,27 @@
+{
+  "id": "assessment-of-damages-act-1969",
+  "type": "statute",
+  "title": "Assessment of Damages Act 1969",
+  "short_name": "AD1",
+  "year": 1969,
+  "status": "in_force",
+  "issued_date": "1969-01-01",
+  "url": "https://www.saflii.org/za/legis/consol_act/aoda1969207/",
+  "language": "en",
+  "provisions": [
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "March 1969",
+      "content": "March 1969. Amended General Law Amendment Act 49 of 1996 (G. 17477, with effect from 4 October 1996). [ NOTE : The administration, powers and functions of this Act are transferred to the Minister of Justice and Constitutional Development , effective immediately before the President assumed office on 19 June 2024 – Proc 199 / G. 51368 / 11 October 2024.] ACT To amend the law relating to the assessment of damages for loss of support as a result of a person’s death. BE IT ENACTED by the State President, the Senate and the House of Assembly of the Republic of South Africa, as follows:—",
+      "language": "en"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "",
+      "content": ". ... [S 2 repealed by s 1 of Act 49 of 1996.]",
+      "language": "en"
+    }
+  ]
+}

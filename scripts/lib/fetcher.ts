@@ -63,10 +63,52 @@ export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<F
 
 /**
  * Fetch the SAFLII index page listing consolidated South African Acts.
+ *
+ * SAFLII uses an alphabetical TOC structure (toc-A.html, toc-B.html, etc.).
+ * This function fetches the main index page to discover sub-page letters,
+ * then fetches each sub-page, concatenating all HTML bodies together.
  */
 export async function fetchSafliiIndex(): Promise<FetchResult> {
-  const url = 'https://www.saflii.org/za/legis/consol_act/';
-  return fetchWithRateLimit(url);
+  const baseUrl = 'https://www.saflii.org/za/legis/consol_act/';
+  const mainPage = await fetchWithRateLimit(baseUrl);
+
+  if (mainPage.status !== 200) {
+    return mainPage;
+  }
+
+  // Extract alphabetical sub-page links (toc-A.html, toc-B.html, ...)
+  const tocPattern = /href="(toc-([A-Z])\.html)"/gi;
+  const letters: string[] = [];
+  let tocMatch: RegExpExecArray | null;
+  while ((tocMatch = tocPattern.exec(mainPage.body)) !== null) {
+    letters.push(tocMatch[2]);
+  }
+
+  if (letters.length === 0) {
+    // Fallback: if no TOC pages found, return the main page as-is
+    return mainPage;
+  }
+
+  console.log(`  Found ${letters.length} alphabetical sub-pages: ${letters.join(', ')}`);
+
+  // Fetch each sub-page and concatenate bodies
+  let combinedBody = mainPage.body;
+  for (const letter of letters) {
+    const subUrl = `${baseUrl}toc-${letter}.html`;
+    const subPage = await fetchWithRateLimit(subUrl);
+    if (subPage.status === 200) {
+      combinedBody += '\n' + subPage.body;
+      console.log(`  Fetched toc-${letter}.html`);
+    } else {
+      console.log(`  Warning: toc-${letter}.html returned HTTP ${subPage.status}`);
+    }
+  }
+
+  return {
+    status: 200,
+    body: combinedBody,
+    contentType: mainPage.contentType,
+  };
 }
 
 /**

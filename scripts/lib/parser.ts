@@ -22,8 +22,10 @@ export interface ActIndexEntry {
 export function parseSafliiIndex(html: string): ActIndexEntry[] {
   const entries: ActIndexEntry[] = [];
 
-  // SAFLII index pages list acts as links in a structured HTML list
-  const linkPattern = /<a\s+href="\/za\/legis\/consol_act\/([^/"]+)\/"[^>]*>([^<]+)<\/a>/gi;
+  // SAFLII uses alphabetical sub-pages with relative links in <li class="make-database">
+  // Format: <a href="popia4o2013399" class="make-database">Protection of Personal Information Act 4 of 2013 </a>
+  // Also match absolute paths: <a href="/za/legis/consol_act/SLUG/" ...>
+  const linkPattern = /<a\s+href="(?:\/za\/legis\/consol_act\/)?([a-z0-9]+)\/?"[^>]*>([^<]+)<\/a>/gi;
   let match: RegExpExecArray | null;
 
   while ((match = linkPattern.exec(html)) !== null) {
