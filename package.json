@@ -1,7 +1,7 @@
 {
   "name": "@ansvar/southafrica-law-mcp",
   "mcpName": "eu.ansvar/southafrica-law-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "South African law database covering POPIA, cybercrimes, electronic transactions, companies, and consumer protection law with full-text search via MCP",
   "type": "module",
   "main": "dist/index.js",

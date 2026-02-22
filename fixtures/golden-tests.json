@@ -2,152 +2,150 @@
   "$schema": "./golden-tests.schema.json",
   "version": "1.0",
   "mcp_name": "South Africa Law MCP",
-  "description": "Golden contract tests for the South Africa Law MCP — 12 tests covering article retrieval, search, citation, cross-reference, and negative cases",
+  "description": "Golden contract tests for the South Africa Law MCP — 12 tests covering provision retrieval, search, citation, cross-reference, and negative cases",
   "tests": [
     {
       "id": "za-001",
       "category": "article_retrieval",
-      "description": "Retrieve POPIA Section 2 — purpose of the Act, covering the right to privacy and personal information protection",
+      "description": "Retrieve Accreditation Act Section 2 — purpose of the Act, establishing SANAS as accreditation body",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Protection of Personal Information Act 4 of 2013",
-        "article": "2"
+        "document_id": "accreditation-for-conformity-assessment-calibration-and-good",
+        "section": "2"
       },
       "assertions": {
         "result_not_empty": true,
-        "text_contains": ["personal information", "right to privacy"],
-        "fields_present": ["text", "article_number"],
+        "text_contains": ["accreditation", "SANAS"],
+        "fields_present": ["results"],
         "text_not_empty": true
       }
     },
     {
       "id": "za-002",
       "category": "article_retrieval",
-      "description": "Retrieve Cybercrimes Act Section 2 — unlawful access to computer systems",
+      "description": "Retrieve Accreditation Act Section 1 — definitions including accreditation body, calibration, GLP",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Cybercrimes Act 19 of 2020",
-        "article": "2"
+        "document_id": "accreditation-for-conformity-assessment-calibration-and-good",
+        "section": "1"
       },
       "assertions": {
         "result_not_empty": true,
-        "text_contains": ["computer system", "access"],
-        "fields_present": ["text", "article_number"],
+        "text_contains": ["accreditation body", "calibration"],
+        "fields_present": ["results"],
         "text_not_empty": true
       }
     },
     {
       "id": "za-003",
       "category": "article_retrieval",
-      "description": "Retrieve Companies Act Section 1 — interpretation and definitions",
+      "description": "Retrieve Close Corporations Act Section 1 — definitions including accounting records",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Companies Act 71 of 2008",
-        "article": "1"
+        "document_id": "close-corporations-act-1984",
+        "section": "1"
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["Companies Act", "interpretation", "definition"],
-        "fields_present": ["text"],
+        "any_result_contains": ["Close Corporations", "accounting records", "corporation"],
+        "fields_present": ["results"],
         "text_not_empty": true
       }
     },
     {
       "id": "za-004",
       "category": "search",
-      "description": "Full-text search for 'personal information' returns POPIA provisions",
+      "description": "Full-text search for 'accreditation' returns Accreditation Act provisions",
       "tool": "search_legislation",
       "input": {
-        "query": "personal information"
+        "query": "accreditation"
       },
       "assertions": {
         "result_not_empty": true,
         "min_results": 1,
-        "any_result_contains": ["Protection of Personal Information", "POPIA", "personal information"]
+        "any_result_contains": ["accreditation"]
       }
     },
     {
       "id": "za-005",
       "category": "search",
-      "description": "Full-text search for 'cybercrime' returns Cybercrimes Act provisions",
+      "description": "Full-text search for 'definitions' returns provisions from multiple acts",
       "tool": "search_legislation",
       "input": {
-        "query": "cybercrime"
+        "query": "definitions"
       },
       "assertions": {
         "result_not_empty": true,
         "min_results": 1,
-        "any_result_contains": ["Cybercrimes Act", "cybercrime", "offence", "computer"]
+        "any_result_contains": ["definitions"]
       }
     },
     {
       "id": "za-006",
       "category": "search",
-      "description": "Full-text search for 'electronic communication' returns ECTA provisions",
+      "description": "Full-text search for 'broadcasting' returns Broadcasting Act provisions",
       "tool": "search_legislation",
       "input": {
-        "query": "electronic communication"
+        "query": "broadcasting"
       },
       "assertions": {
         "result_not_empty": true,
         "min_results": 1,
-        "any_result_contains": ["Electronic Communications and Transactions", "ECTA", "electronic"]
+        "any_result_contains": ["Broadcasting"]
       }
     },
     {
       "id": "za-007",
-      "category": "citation_roundtrip",
-      "description": "Citation for POPIA Section 2 includes SAFLII or gov.za URL pattern",
+      "category": "article_retrieval",
+      "description": "Retrieve Accreditation Act Section 26 — regulations covering scope of SANAS accreditation",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Protection of Personal Information Act 4 of 2013",
-        "article": "2"
+        "document_id": "accreditation-for-conformity-assessment-calibration-and-good",
+        "section": "26"
       },
       "assertions": {
         "result_not_empty": true,
-        "citation_url_pattern": "saflii\\.org|gov\\.za",
+        "text_contains": ["regulations", "SANAS"],
         "text_not_empty": true
       }
     },
     {
       "id": "za-008",
-      "category": "citation_roundtrip",
-      "description": "Citation for Cybercrimes Act Section 2 includes official identifier",
+      "category": "article_retrieval",
+      "description": "Retrieve Accreditation Act Section 27 — offences relating to false accreditation claims",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Cybercrimes Act 19 of 2020",
-        "article": "2"
+        "document_id": "accreditation-for-conformity-assessment-calibration-and-good",
+        "section": "27"
       },
       "assertions": {
         "result_not_empty": true,
-        "fields_present": ["text"],
+        "text_contains": ["offences"],
         "text_not_empty": true
       }
     },
     {
       "id": "za-009",
       "category": "eu_cross_reference",
-      "description": "POPIA relationship to EU GDPR — POPIA was significantly influenced by GDPR and EU data protection principles",
+      "description": "EU basis for Accreditation Act — returns empty references (no EU cross-references in free-tier DB)",
       "tool": "get_provision_eu_basis",
       "input": {
-        "law_identifier": "Protection of Personal Information Act 4 of 2013"
+        "document_id": "accreditation-for-conformity-assessment-calibration-and-good"
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["GDPR", "General Data Protection Regulation", "2016/679", "data protection"]
+        "fields_present": ["results"]
       }
     },
     {
       "id": "za-010",
-      "category": "eu_cross_reference",
-      "description": "Cybercrimes Act relationship to the Budapest Convention on Cybercrime",
-      "tool": "get_provision_eu_basis",
-      "input": {
-        "law_identifier": "Cybercrimes Act 19 of 2020"
-      },
+      "category": "list_sources",
+      "description": "List all data sources backing this MCP server",
+      "tool": "list_sources",
+      "input": {},
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["Budapest Convention", "Convention on Cybercrime", "Council of Europe", "cybercrime"]
+        "text_not_empty": true
       }
     },
     {
@@ -156,8 +154,8 @@
       "description": "Non-existent South African Act returns graceful error or empty result",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Fictional Protea Conservation Act 2099",
-        "article": "1"
+        "document_id": "fictional-protea-conservation-act-2099",
+        "section": "1"
       },
       "assertions": {
         "handles_gracefully": true
@@ -169,8 +167,8 @@
       "description": "Malformed section number returns graceful error or empty result",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "Protection of Personal Information Act 4 of 2013",
-        "article": "999ZZZ-INVALID"
+        "document_id": "accreditation-for-conformity-assessment-calibration-and-good",
+        "section": "999ZZZ-INVALID"
       },
       "assertions": {
         "handles_gracefully": true

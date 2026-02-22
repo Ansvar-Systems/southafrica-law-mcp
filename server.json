@@ -1,20 +1,43 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "eu.ansvar/southafrica-law-mcp",
-  "description": "South African law database covering POPIA, cybercrimes, electronic transactions, companies, and consumer protection law with full-text search",
+  "description": "South Africa legislation via MCP — full-text search across statutes and provisions",
   "repository": {
     "url": "https://github.com/Ansvar-Systems/southafrica-law-mcp",
     "source": "github"
   },
   "homepage": "https://ansvar.eu",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "Apache-2.0",
+  "keywords": [
+    "south-africa",
+    "law",
+    "POPIA",
+    "cybercrimes",
+    "data-protection",
+    "ECTA",
+    "consumer-protection",
+    "legal",
+    "compliance",
+    "mcp"
+  ],
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@ansvar/southafrica-law-mcp",
-      "version": "1.0.0",
-      "transport": { "type": "stdio" }
+      "version": "1.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    },
+    {
+      "registryType": "npm",
+      "identifier": "@ansvar/southafrica-law-mcp",
+      "version": "1.1.0",
+      "transport": {
+        "type": "streamable-http",
+        "url": "https://southafrica-law-mcp.vercel.app/mcp"
+      }
     }
   ]
 }

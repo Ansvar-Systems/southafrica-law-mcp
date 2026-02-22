@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "jurisdiction": "ZA",
+  "portal": "saflii.org",
+  "generated": "2026-02-22",
+  "total_laws": 29,
+  "total_provisions": 128,
+  "laws": [
+    {
+      "id": "accreditation-for-conformity-assessment-calibration-and-good",
+      "title": "Accreditation for Conformity Assessment, Calibration and Good Laboratory Act 2006",
+      "provisions": 4
+    },
+    {
+      "id": "act-11-2015",
+      "title": "Agrément South Africa Act 11 of 2015",
+      "provisions": 1
+    },
+    {
+      "id": "act-2-2020",
+      "title": "Border Management Authority Act 2 of 2020",
+      "provisions": 2
+    },
+    {
+      "id": "act-22-2024",
+      "title": "Climate Change Act 22 of 2024",
+      "provisions": 1
+    },
+    {
+      "id": "act-46-1998",
+      "title": "Administrative Adjudication of Road Traffic Offences Act 46 of 1998",
+      "provisions": 1
+    },
+    {
+      "id": "act-7-2024",
+      "title": "Cannabis for Private Purposes Act 7 of 2024",
+      "provisions": 1
+    },
+    {
+      "id": "administration-of-estates-act-1965",
+      "title": "Administration of Estates Act 1965",
+      "provisions": 1
+    },
+    {
+      "id": "admission-of-advocates-act-1964",
+      "title": "Admission of Advocates Act 1964",
+      "provisions": 10
+    },
+    {
+      "id": "advertising-on-roads-and-ribbon-development-act-1940",
+      "title": "Advertising on Roads and Ribbon Development Act 1940",
+      "provisions": 8
+    },
+    {
+      "id": "alienation-of-land-act-1981",
+      "title": "Alienation of Land Act 1981",
+      "provisions": 2
+    },
+    {
+      "id": "alteration-of-sex-description-and-sex-status-act-2003",
+      "title": "Alteration of Sex Description and Sex Status Act 2003",
+      "provisions": 2
+    },
+    {
+      "id": "arbitration-act-1965",
+      "title": "Arbitration Act 1965",
+      "provisions": 1
+    },
+    {
+      "id": "armaments-corporation-of-south-africa-limited-act-2003",
+      "title": "Armaments Corporation of South Africa, Limited Act 2003",
+      "provisions": 1
+    },
+    {
+      "id": "assessment-of-damages-act-1969",
+      "title": "Assessment of Damages Act 1969",
+      "provisions": 2
+    },
+    {
+      "id": "astronomy-geographic-advantage-act-2007",
+      "title": "Astronomy Geographic Advantage Act 2007",
+      "provisions": 1
+    },
+    {
+      "id": "births-and-deaths-registration-act-1992",
+      "title": "Births and Deaths Registration Act 1992",
+      "provisions": 1
+    },
+    {
+      "id": "borrowing-powers-of-provincial-governments-act-1996",
+      "title": "Borrowing Powers of Provincial Governments Act 1996",
+      "provisions": 4
+    },
+    {
+      "id": "broad-based-black-economic-empowerment-act-2003",
+      "title": "Broad-Based Black Economic Empowerment Act 2003",
+      "provisions": 1
+    },
+    {
+      "id": "broadcasting-act-1999",
+      "title": "Broadcasting Act 1999",
+      "provisions": 1
+    },
+    {
+      "id": "businesses-act-1991",
+      "title": "Businesses Act 1991",
+      "provisions": 2
+    },
+    {
+      "id": "child-justice-act-2008",
+      "title": "Child Justice Act 2008",
+      "provisions": 7
+    },
+    {
+      "id": "children-s-act-2005",
+      "title": "Children's Act 2005",
+      "provisions": 2
+    },
+    {
+      "id": "choice-on-termination-of-pregnancy-act-1996",
+      "title": "Choice on Termination of Pregnancy Act 1996",
+      "provisions": 1
+    },
+    {
+      "id": "civil-union-act-2006",
+      "title": "Civil Union Act 2006",
+      "provisions": 1
+    },
+    {
+      "id": "civilian-secretariat-for-police-service-act-2011",
+      "title": "Civilian Secretariat for Police Service Act 2011",
+      "provisions": 1
+    },
+    {
+      "id": "close-corporations-act-1984",
+      "title": "Close Corporations Act 1984",
+      "provisions": 61
+    },
+    {
+      "id": "collective-investment-schemes-control-act-2002",
+      "title": "Collective Investment Schemes Control Act 2002",
+      "provisions": 1
+    },
+    {
+      "id": "communal-property-associations-act-1996",
+      "title": "Communal Property Associations Act 1996",
+      "provisions": 1
+    },
+    {
+      "id": "constitution-2005",
+      "title": "Citation of Constitutional Laws Act 2005",
+      "provisions": 6
+    }
+  ]
+}
