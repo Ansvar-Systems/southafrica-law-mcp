@@ -1,7 +1,7 @@
 {
   "name": "@ansvar/southafrica-law-mcp",
   "mcpName": "eu.ansvar/southafrica-law-mcp",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "South African law database covering POPIA, cybercrimes, electronic transactions, companies, and consumer protection law with full-text search via MCP",
   "type": "module",
   "main": "dist/index.js",
@@ -22,7 +22,8 @@
     "drift:detect": "tsx scripts/drift-detect.ts",
     "validate": "vitest run && vitest run __tests__/contract/",
     "prepublishOnly": "npm run build",
-    "postinstall": "node -e \"\" 2>/dev/null || true"
+    "postinstall": "node -e \"\" 2>/dev/null || true",
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@ansvar/mcp-sqlite": "^1.0.3",
